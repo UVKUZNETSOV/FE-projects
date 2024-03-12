@@ -1,0 +1,18 @@
+body {
+  background-color: #2F2F2F;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  border-radius: 8px;
+  right:10px;
+  padding: 0 200px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 0 30px;
+  }
+}
